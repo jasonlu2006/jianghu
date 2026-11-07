@@ -1,0 +1,16 @@
+{
+  "name": "@murim/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Play in the terminal. Fastest way to test engine + narrator changes.",
+  "scripts": {
+    "play": "tsx --env-file-if-exists=../../.env src/main.ts",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@murim/engine": "workspace:*",
+    "@murim/narrator": "workspace:*",
+    "@murim/worlds": "workspace:*"
+  }
+}

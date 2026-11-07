@@ -1,0 +1,16 @@
+{
+  "name": "@murim/worlds",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Premade worlds. Original settings only: no characters or places lifted from existing novels.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@murim/engine": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p ."
+  }
+}

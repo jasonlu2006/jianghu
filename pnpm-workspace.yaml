@@ -1,0 +1,9 @@
+packages:
+  - "packages/*"
+  - "apps/*"
+
+# esbuild (used by tsx and vitest) needs its postinstall to fetch the right
+# binary for each machine: darwin-arm64 on an M-series Mac, linux-x64 on Linux.
+onlyBuiltDependencies:
+  - esbuild
+  - sharp

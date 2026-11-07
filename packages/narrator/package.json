@@ -1,0 +1,16 @@
+{
+  "name": "@murim/narrator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Turns engine results into prose and free text into engine actions. Talks to Claude; falls back to an offline mock.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@murim/engine": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p ."
+  }
+}

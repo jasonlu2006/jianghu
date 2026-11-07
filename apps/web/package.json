@@ -1,0 +1,26 @@
+{
+  "name": "@murim/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Mobile-first chat client (Next.js). The server is stateless: the browser keeps the save and sends it each turn.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "next typegen && tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@murim/engine": "workspace:*",
+    "@murim/narrator": "workspace:*",
+    "@murim/worlds": "workspace:*",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@next/env": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}
